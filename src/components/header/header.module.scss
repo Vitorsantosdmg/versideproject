@@ -1,0 +1,11 @@
+header{
+    width: 100vw;
+    height: 70px;
+    .header__logo{
+        margin-left: 3em;
+        width: 140px;
+        height: 70px;
+        background: transparent url(../../assets/img/logotipo-verside.png) center no-repeat;
+        background-size: contain;
+    }
+}
