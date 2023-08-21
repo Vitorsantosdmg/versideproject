@@ -1,20 +1,31 @@
+@import '../../styles/index.scss';
+
 header{
+    position: fixed;
     display: flex;
     align-items: center;
     width: 100vw;
-    height: 70px;
+    height: 70 px;
     justify-content: space-between;
+    background-color: $grey-1;
+   
     .header__logo{
         margin-left: 3em;
-        width: 140px;
+        width: 100px;
         height: 70px;
-        background: transparent url(../../assets/img/logotipo-verside.png) center no-repeat;
+        background: transparent url(../../assets/img/Logotipo.svg) center no-repeat;
         background-size: contain;
+        filter: invert(1);
     }
     .header__anchors{
         display: flex;
         justify-content: space-between;
-        margin-right: 3em;
         gap: 30px;
+    }
+    .header__buttonsRight{
+        position: relative;
+        display: flex;
+        margin-right: 3em;
+        gap: 20px;
     }
 }

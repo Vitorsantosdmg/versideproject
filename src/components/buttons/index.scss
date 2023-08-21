@@ -2,25 +2,32 @@
 
 .header__anchors{
     position: relative;
-    color: $grey-1;
-    font-size: 1.1em;
+    color: $white-2;
+    font-size: 1.2em;
     text-decoration: none;
-    text-transform: uppercase;
     padding: 3px 0;
-    
-    &::after{
-        content: '';
-        position: absolute;
-        height: 2px;
-        width: 0%;
-        background-color: $grey-1;
-        right: 0;
-        bottom: 0;
-        transition: .4s;
-    }
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+
     &:hover{
-        &::after{
-            width: 50%;
-        }
+        color: $white-1;
+    }
+
+}
+
+.button--1{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 6px 15px;
+    border-radius: 3px;
+    color: $white-2;
+    border: 1px solid $white-2;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        color: $white-1;
+        border: 1px solid $white-1;
     }
 }
