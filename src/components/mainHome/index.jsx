@@ -9,7 +9,7 @@ export const MainHome = () => {
                 <h1>versão</h1>
                 <h1>de</h1>
                 <h1>você</h1>
-                <h1>mesmo.</h1>
+                <h1>mesmo</h1>
             </div>
             
         </main>
