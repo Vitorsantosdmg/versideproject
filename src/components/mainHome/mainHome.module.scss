@@ -7,6 +7,7 @@ main{
     width: 100vw;
     height: 100vh;
     .mainHome__title{
+        position: relative;
         display: flex;
         gap: 15px;
         flex-wrap: wrap;
