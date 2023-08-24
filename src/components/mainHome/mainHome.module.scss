@@ -12,7 +12,14 @@ main{
         flex-wrap: wrap;
         width: 500px;
         padding: 10px;
-        border-right: 1px solid $white-1;
+        &:hover{
+            &::before{
+                content: "";
+                height: 100%;
+                width: 2px;
+                background-color: $white-1;
+            }
+        }
         h1{
             display: inline-block;
             font-size: 4em;
