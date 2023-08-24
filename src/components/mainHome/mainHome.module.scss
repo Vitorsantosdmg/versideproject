@@ -28,7 +28,7 @@ main{
             font-size: 4em;
             color: $white-1;
             height: .7em;
-            animation: mainHome duration timing-function delay iteration-count direction fill-mode;
+            animation: mainHome 2s infinite;
         }
     }
     
