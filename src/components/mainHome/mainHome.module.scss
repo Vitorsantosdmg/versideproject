@@ -7,10 +7,10 @@ main{
     width: 100vw;
     height: 100vh;
     background-color: red;
-    h1{
-        display: inline-block;
-        font-size: 4em;
-        color: $white-1;
-        width: 50%;
+    .mainHome__title{
+        h1{
+            display: inline-block;
+        }
     }
+    
 }
