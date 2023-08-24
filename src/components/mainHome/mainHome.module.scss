@@ -1,3 +1,5 @@
+@import "../../styles/index.scss";
+
 main{
     display: flex;
     justify-content: center;
@@ -5,4 +7,9 @@ main{
     width: 100vw;
     height: 100vh;
     background-color: red;
+    h1{
+        text-transform: uppercase;
+        font-size: 2em;
+        color: $white-1;
+    }
 }
