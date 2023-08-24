@@ -8,6 +8,8 @@ main{
     height: 100vh;
     background-color: red;
     .mainHome__title{
+        display: flex;
+        gap: 15px;
         h1{
             display: inline-block;
         }
