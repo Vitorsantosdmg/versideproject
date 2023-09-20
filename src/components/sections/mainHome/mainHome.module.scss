@@ -1,0 +1,60 @@
+@import "../../../styles/index.scss";
+@import "../../../styles/animations.scss";
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    .mainHome__title{
+        width: 508px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        h1{
+            font-size: 4em;
+            word-wrap: break-word;
+            line-height: 1em;
+            text-align: center;
+            background: linear-gradient(
+            to right,
+            #3a2cff 0%,
+            #4476ff 15%,
+            #44d3ff 30%,
+            #44ffa2 45%,
+            #33ff5f 60%,
+            #11a8ff 75%,
+            #44ff98 90%,
+            #2afde1 100%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 500% auto;
+        animation: textShine 10s ease-in-out infinite alternate;
+        }
+        
+    }
+
+    .mainHome__person{
+        position: absolute;
+        z-index: -1;
+        width: 400px;
+        height: 85vh;  
+        background-image: url(../../../assets/img/person1.png);
+        background-size: cover;
+        bottom: 0;
+        right: 0;
+        
+    }
+
+    
+}
+
+
+
+

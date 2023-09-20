@@ -2,12 +2,19 @@
 
 header{
     position: fixed;
+    z-index: 99;
     display: flex;
     align-items: center;
     width: 100vw;
-    height: 70 px;
+    height: 70px;
     justify-content: space-between;
     background-color: $grey-1;
+    backdrop-filter: blur(15px);
+    &:hover{
+
+        cursor: pointer;
+    }
+
    
     .header__logo{
         margin-left: 3em;
@@ -16,6 +23,11 @@ header{
         background: transparent url(../../assets/img/Logotipo.svg) center no-repeat;
         background-size: contain;
         filter: invert(1);
+        opacity: 70%;
+        transition: .5s;
+        &:hover{
+            opacity: 100%;
+        }
     }
     .header__anchors{
         display: flex;
