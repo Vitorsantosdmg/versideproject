@@ -1,7 +1,10 @@
 @import '../../../../../styles/index.scss';
 
 .ratingCard{
-    border: 1px solid $grey-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
-    background-color: $white-1;
+    border: 2px solid $white-1;
+
 }
