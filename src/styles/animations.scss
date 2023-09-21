@@ -1,6 +1,6 @@
 @keyframes circularRotation__one {
     0%{
-        transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-40%, -50%) rotate(0deg);
         height: 450px;
         border-color: #fff;
     }
@@ -19,7 +19,7 @@
     }
 
     100%{
-        transform: translate(-50%, -50%) rotate(-360deg);
+        transform: translate(-40%, -50%) rotate(-360deg);
         height: 450px;
         border-color: #fff;
     }
@@ -27,7 +27,7 @@
 
 @keyframes circularRotation__two {
     0%{
-        transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-40%, -50%) rotate(0deg);
         height: 400px;
         border-color: #5c5c5c;
     }
@@ -45,7 +45,7 @@
     }
 
     100%{
-        transform: translate(-50%, -50%) rotate(-360deg);
+        transform: translate(-40%, -50%) rotate(-360deg);
         height: 400px;
         border-color: #5c5c5c;
     }
@@ -53,7 +53,7 @@
 
 @keyframes circularRotation__three {
     0%{
-        transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-40%, -50%) rotate(0deg);
         height: 350px;
         border-color: #fff;
     }
@@ -72,7 +72,7 @@
     }
     
     100%{
-        transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-40%, -50%) rotate(360deg);
         height: 350px;
         border-color: #fff;
     }

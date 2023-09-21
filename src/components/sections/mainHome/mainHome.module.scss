@@ -8,6 +8,7 @@ main{
     width: 100vw;
     height: 100vh;
     position: relative;
+    
     .mainHome__title{
         width: 508px;
         padding: 20px;
@@ -35,7 +36,7 @@ main{
         background-clip: text;
         -webkit-text-fill-color: transparent;
         background-size: 500% auto;
-        animation: textShine 10s ease-in-out infinite alternate;
+        animation: textShine 5s ease-in-out infinite alternate;
         }
         
     }
@@ -43,7 +44,7 @@ main{
     .mainHome__person{
         position: absolute;
         z-index: -1;
-        width: 400px;
+        width: 600px;
         height: 85vh;  
         background-image: url(../../../assets/img/person1.png);
         background-size: cover;
