@@ -1,9 +1,9 @@
 import styles from './style.module.scss'
 
-export const ratingSection = () => {
+export const RatingSection = () => {
     return(
         <div className={styles.ratingSection}>
-            
+
         </div>
     )
 }
