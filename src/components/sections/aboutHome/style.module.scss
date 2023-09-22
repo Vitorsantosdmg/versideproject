@@ -3,8 +3,25 @@
 .aboutHome{
     display: flex;
     width: 100vw;
-    height: 30vh;
-    background-color: $grey-2;
+    height: 60vh;
+    background-color: $white-1;
     align-items: center;
     justify-content: center;
+    .aboutHome__container{
+        width: 100vw;
+        height: 100%;
+        max-width: 1250px;
+        
+        h1{
+            font-size: 3em;
+            
+            padding: 50px 0;
+            color: $grey-1;
+            
+        }
+        p{
+            font-size: 1.5em;
+            text-align: justify;
+        }
+    }
 }

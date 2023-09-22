@@ -6,7 +6,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 80px);
     position: relative;
     
     .mainHome__title{
