@@ -6,7 +6,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: 100vh;
     position: relative;
     
     .mainHome__title{
@@ -44,8 +44,8 @@ main{
     .mainHome__person{
         position: absolute;
         z-index: -1;
-        width: 600px;
-        height: 85vh;  
+        width: 400px;
+        height: calc(100vh - 80px);  
         background-image: url(../../../assets/img/person1.png);
         background-size: cover;
         bottom: 0;
