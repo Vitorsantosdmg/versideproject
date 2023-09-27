@@ -5,9 +5,14 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100px;
-    background-color: red;
+    height: 70px;
+    background-color: $grey-2;
     .categories__container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
         width: calc(100% - 6em);
+        max-width: 1800px;
+        height: 40px;
     }
 }
