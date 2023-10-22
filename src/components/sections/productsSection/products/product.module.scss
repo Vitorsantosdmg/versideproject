@@ -1,0 +1,19 @@
+@import "../../../../styles/index.scss";
+
+.product{
+    background-color: $white-1;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 2px;
+    img{
+        width: 300px;
+        height: 300px;
+        object-position: 0px -50px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+}

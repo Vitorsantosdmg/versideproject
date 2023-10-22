@@ -5,7 +5,8 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 70px;
+    height: fit-content;
+    padding: 20px 0;
     background-color: $grey-2;
     .categories__container{
         display: flex;
@@ -13,6 +14,8 @@
         gap: 15px;
         width: calc(100% - 6em);
         max-width: 1800px;
-        height: 40px;
+        height: fit-content;
+        font-weight: 100;
     }
 }
+
