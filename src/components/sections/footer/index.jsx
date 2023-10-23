@@ -68,8 +68,21 @@ export const Footer = () => {
                         </li>
                         <li>
                             <span>
-                                <a href="">Vitor Santos</a> -  CEO / Web designer / Designer gráfico
+                                <a href="">Vitor Santos</a> -  CEO / Web developer / Designer gráfico
                             </span>
+                        </li>
+                        <li>
+                            <span>Éder Moura - Sócio / Financeiro</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.footer__col}>
+                    <ul className={styles.container__logos}>
+                        <li>
+                            <img src="https://i.imgur.com/zJmM8Pj.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="https://i.imgur.com/nB7niW8.png" alt="" />
                         </li>
                     </ul>
                 </div>

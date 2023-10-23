@@ -17,9 +17,6 @@ export const MainHome = () => {
                 </div>
                 
             </div>
-            <div className={styles.mainHome__person}>
-                
-            </div> 
         </main>
     )
 }

@@ -19,8 +19,9 @@ header{
         opacity: 100%;
         transition: .5s;
         margin-left: 3em;
+        filter: invert(1);
         &:hover{
-            opacity: 30%;
+            opacity: 70%;
             cursor: pointer;
         }
     }
@@ -28,11 +29,13 @@ header{
         display: flex;
         justify-content: space-between;
         gap: 30px;
+        
     }
     .header__buttonsRight{
         position: relative;
         display: flex;
         margin-right: 3em;
         gap: 20px;
+        filter: invert(1);
     }
 }
