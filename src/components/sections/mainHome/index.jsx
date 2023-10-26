@@ -7,7 +7,7 @@ import { Logosymbol } from "../../../assets/img/Logosymbol";
 export const MainHome = () => {
     return(
         <main>
-            <img className={styles.main__shape} src="src\assets\img\shape4.png" />
+            <img className={styles.main__shape} src="https://i.imgur.com/hRZAQKN.png" />
             <div className={styles.main__containerGroup}>
                 <div className={styles.container__title}>
                     <h1 className="title one">A lado da sua<br />melhor versão</h1>
