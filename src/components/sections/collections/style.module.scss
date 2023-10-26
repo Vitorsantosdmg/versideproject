@@ -51,19 +51,9 @@
 
                         color: $white-1;
                     }
-                    span{
-                        font-size: 1.5em;
-                        font-weight: 600;
-                        color: $green-1;
-                    }
+                    
                 }
-                &:hover{
-                    cursor: pointer;
-                    div{
-                        opacity: 100%;
-                        border: 1px solid $green-1;
-                    }
-                }
+                
             }
 
             .gallery__img1{
@@ -97,7 +87,7 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
-                   background-position-x: 30%;
+                 
     
                 }
                 .gallery__img4{

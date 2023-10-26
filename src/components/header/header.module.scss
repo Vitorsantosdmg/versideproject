@@ -10,7 +10,7 @@ header{
     width: 100vw;
     height: 70px;
     justify-content: space-between;
-    max-width: 1500px;
+    max-width: calc(1500px + 6em);
     .header__logo{
         width: 120px;
         height: 70px;

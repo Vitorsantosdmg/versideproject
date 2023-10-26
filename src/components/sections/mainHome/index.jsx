@@ -7,15 +7,14 @@ import { Logosymbol } from "../../../assets/img/Logosymbol";
 export const MainHome = () => {
     return(
         <main>
-            <div className={styles.mainHome__title}>
-                <div>
-                    <Logosymbol />
+            <img className={styles.main__shape} src="src\assets\img\shape4.png" />
+            <div className={styles.main__containerGroup}>
+                <div className={styles.container__title}>
+                    <h1 className="title one">A lado da sua<br />melhor versão</h1>
                 </div>
-                <div>
-                    <h1>Your better</h1>
-                    <h1>version</h1>
+                <div className={styles.container__subtitle}>
+                    <p className="title three">produtos ecológicamente sustentáveis</p>
                 </div>
-                
             </div>
         </main>
     )

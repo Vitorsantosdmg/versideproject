@@ -72,7 +72,7 @@ export const Footer = () => {
                             </span>
                         </li>
                         <li>
-                            <span>Éder Moura - Sócio / Financeiro</span>
+                            <span>Éder Moura - Sócio / Financeirow</span>
                         </li>
                     </ul>
                 </div>
