@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 export const BannerHome = () => {
     return(
         <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition:{
-            duration: .5,
+            duration: .2,
             delay: .2
         }}} className={styles.banner} id='banner__home'>
             <picture>

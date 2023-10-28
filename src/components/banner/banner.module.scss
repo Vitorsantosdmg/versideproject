@@ -1,9 +1,14 @@
 .banner{
     width: calc(100% - 130px);
-    padding: 0;
-    
-    img{
-        width: 100%;
-        border-radius: 10px;
+    height: fit-content;
+    picture{
+        height: 100%;
+        img{
+            display: block;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: contain;
+            height: 100%;
+        }
     }
 }

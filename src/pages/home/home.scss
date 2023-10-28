@@ -1,5 +1,11 @@
-.home{
+.home, .home__items{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.home__items{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
