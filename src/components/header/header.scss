@@ -1,0 +1,54 @@
+@import '/src/styles/index.scss';
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 65px;
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 130px);
+       
+        .header__logotypo{
+            img{
+                height: 15px;
+                
+            }
+        }
+        .header__navigation{
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 30px;
+                li{
+                    a{
+                        color: $text;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .header__user{
+            display: flex;
+            gap: 15px;
+
+            button{
+                position: relative;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 10px;
+                border: 1px solid $secondary;
+                background-color: $background;
+                color: $text;
+                transition: .2s;
+
+                &:hover{
+                    transform: translateY(-5px);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

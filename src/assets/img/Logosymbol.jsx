@@ -1,6 +1,6 @@
-import Logo from './Logosymbol.svg'
+import Logo from './Logotipo.svg'
 
-export const Logosymbol = () => {
+export const Logotipo = () => {
     return(
         <>
             <img src={Logo} alt="logosymbol" />
