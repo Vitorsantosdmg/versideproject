@@ -2,12 +2,14 @@
 
 main{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     width: calc(100% - 130px);
-    background-color: $primary;
-    height: 500px;
-    border-radius: 10px;
-    
-    
+}
+
+#contain1{
+    background-image: url(/src/assets/img/contain1.jpg);
+}
+
+#contain2{
+    background-image: url(/src/assets/img/contain2.jpg);
 }

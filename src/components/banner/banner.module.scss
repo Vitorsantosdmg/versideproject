@@ -1,14 +1,31 @@
+@import '/src/styles/index.scss';
+
 .banner{
+    position: relative;
+    margin-top: 65px;
     width: calc(100% - 130px);
-    height: fit-content;
-    picture{
-        height: 100%;
-        img{
-            display: block;
-            width: 100%;
-            border-radius: 10px;
-            object-fit: contain;
-            height: 100%;
-        }
+    height: calc(100vh - 73.5px);
+    border-radius: 15px;
+    background-color: $secondary;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/img/background.jpg);
+    background-size: cover;
+    
+    .logomark{
+        height: 70px;
+        filter: invert(1);
     }
+    .shape1{
+        position: absolute;
+        height: 125vh;
+        left: 0;
+        bottom: 0;
+        transform: translate(-40%, 25%);
+        overflow: hidden;
+        
+    }
+    
 }

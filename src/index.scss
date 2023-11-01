@@ -4,26 +4,38 @@ body{
     background-color: $background;
 }
 
+@media (max-width: 780px){
+    #shape1{
+        visibility: hidden;
+    }
+}
+
 @media (max-width: 991.98px){
     .home__main{
-        width: 100%;
-        border-radius: 0;
-        padding: 0;
+        width: calc(100% - 30px);
+        
     }
 
-    .home__items{
-        gap: 0;
+    #productSection{
+        width: calc(100% - 30px);
+    }
+
+    #footer__container{
+        width: calc(100% - 30px);
+        gap: 15px;
     }
 
     #banner__home{
-        width: 100%;
+        width: calc(100% - 30px);
+        height: calc(100vh - 295px);
+        border-radius: 15px;
         img{
             border-radius: 0;
         }
     }
 
     #main__container{
-        width: 100%;
+        width: 50%;
         height: 100%;
     }
 
